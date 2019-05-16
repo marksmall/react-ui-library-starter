@@ -1,0 +1,46 @@
+button.button {
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button {
+  background: #d3d3d3;
+  text-decoration: none;
+  color: #000;
+  border-radius: 2px;
+  padding: 0.125rem 1.1875rem;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.button:hover,
+.button:focus {
+  background: blue;
+  outline: none;
+}
+
+.disabled {
+  /* background: var(--button-background-disabled); */
+  opacity: 0.5;
+}
+
+.active,
+.button:active {
+  background: green;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  margin: unset;
+  border-radius: 50%;
+}
+
+.no-padding {
+  padding: 0;
+}

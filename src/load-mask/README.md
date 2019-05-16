@@ -1,0 +1,5 @@
+LoadMask example:
+
+```js
+<LoadMask />
+```
